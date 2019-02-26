@@ -31,8 +31,8 @@
                     :height 143
                     :weight 'normal
                     :width 'normal
-		            :foundry "outline"
-		            :slant 'normal)
+                    :foundry "outline"
+                    :slant 'normal)
 
 (when window-system
   (blink-cursor-mode 0)                           ; Disable the cursor blinking
