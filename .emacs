@@ -1,4 +1,4 @@
-(setq default-directory "C:/Users/Michael/")
+(setq default-directory (getenv "HOME"))
 
 (require 'package)
 (setq-default
