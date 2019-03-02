@@ -1,6 +1,11 @@
 (setq default-directory (getenv "HOME"))
 
 (require 'package)
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+(package-initialize)
+(load-theme 'solarized-dark t)
+
 (setq-default
  load-prefer-newer t
  package-enable-at-startup nil
@@ -14,11 +19,6 @@
  show-paren-style 'expression)
 
 (show-paren-mode t)
-
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
-(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-(package-initialize)
-(load-theme 'solarized-dark t)
  
 (set-language-environment 'utf-8)
 (setq locale-coding-system 'utf-8)
