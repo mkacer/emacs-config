@@ -27,11 +27,11 @@
 (prefer-coding-system 'utf-8)
 
 (set-face-attribute 'default nil
-                    :family "Source Code Variable"
+                    :family "Hack"
                     :height 143
                     :weight 'normal
                     :width 'normal
-                    :foundry "outline"
+                    :foundry "SRC"
                     :slant 'normal)
 
 (when window-system
