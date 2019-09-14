@@ -28,7 +28,7 @@
 
 (set-face-attribute 'default nil
                     :family "Hack"
-                    :height 143
+                    :height 110
                     :weight 'normal
                     :width 'normal
                     :foundry "SRC"
